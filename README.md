@@ -1,5 +1,7 @@
 # AI-Powered Gold (XAU/USD) Trading Bot
 
+![Dashboard Preview](dashboard.png)
+
 This repository contains a professional-grade automated trading bot architecture designed for Gold (XAU/USD). The system integrates **Machine Learning** for signal generation with a rigorous **Risk Management** engine, simulating real-world execution costs like spreads and commissions.
 
 ## 🚀 Key Features
@@ -16,16 +18,16 @@ This repository contains a professional-grade automated trading bot architecture
 * **Language:** Python 3.10+
 * **Data Handling:** `pandas`, `numpy`, `yfinance`
 * **Modeling:** Custom `MLModel` wrapper (supports Scikit-learn/XGBoost backends)
+* **Web UI:** FastAPI with Jinja2 Templates
 * **Architecture:** Object-Oriented Design (MVC-inspired)
 
 ## 📂 Project Structure
 ```text
 /GoldBot
-├── main.py           # Execution engine & backtest loop
-├── indicators.py     # Technical indicator library (ATR, etc.)
-├── risk.py           # Position sizing & risk management logic
-├── signals.py        # Signal generation interface
-└── ml_model.py       # Data fetching & ML training pipeline
-
-
-The index.html file should be in a template folder inside the GoldBot folder
+├── /templates          # HTML/Frontend files for the Dashboard
+│   └── index.html      
+├── main.py             # Execution engine & backtest loop
+├── indicators.py       # Technical indicator library (ATR, etc.)
+├── risk.py             # Position sizing & risk management logic
+├── signals.py          # Signal generation interface
+└── ml_model.py         # Data fetching & ML training pipeline
