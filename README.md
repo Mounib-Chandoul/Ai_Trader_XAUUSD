@@ -1,6 +1,6 @@
 # AI-Powered Gold (XAU/USD) Trading Bot
 
-![Dashboard Preview](dashboard.png)
+![Dashboard Preview](/Screenshot from 2026-06-18 15-09-36.png)
 
 This repository contains a professional-grade automated trading bot architecture designed for Gold (XAU/USD). The system integrates **Machine Learning** for signal generation with a rigorous **Risk Management** engine, simulating real-world execution costs like spreads and commissions.
 
