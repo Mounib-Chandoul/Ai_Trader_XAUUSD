@@ -26,3 +26,6 @@ This repository contains a professional-grade automated trading bot architecture
 ├── risk.py           # Position sizing & risk management logic
 ├── signals.py        # Signal generation interface
 └── ml_model.py       # Data fetching & ML training pipeline
+
+
+The index.html file should be in a template folder inside the GoldBot folder
