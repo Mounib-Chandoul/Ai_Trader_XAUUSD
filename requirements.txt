@@ -1,0 +1,6 @@
+pandas
+numpy
+scipy
+pandas_ta
+yfinance
+scikit-learn
